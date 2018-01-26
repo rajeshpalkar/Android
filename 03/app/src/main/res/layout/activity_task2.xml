@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools ="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.design.widget.TabLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app ="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5C6BC0"
+        app:tabTextColor="#FFCDD2"
+        app:tabSelectedTextColor="#F44336"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="#F44336"
+        app:tabGravity="fill"
+        />
+
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id ="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajeshpalkar.a03.Task2Activity">
+
+</android.support.v4.view.ViewPager>
+</LinearLayout>

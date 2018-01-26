@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id = "@+id/action_choice1"
+        android:orderInCategory="100"
+        android:title="Linear Layout"
+        app:showAsAction="never"
+    />
+    <item
+        android:id = "@+id/action_choice3"
+        android:orderInCategory="100"
+        android:title="Calculator"
+        app:showAsAction="never"
+        />
+    <item
+        android:id = "@+id/action_choice4"
+        android:orderInCategory="100"
+        android:title="Control and Events"
+        app:showAsAction="never"
+        />
+</menu>
