@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/fragmentrecyclerview"
+    tools:context="com.example.rajeshpalkar.a08.FragmentRecyclerView">
+
+   <RelativeLayout  xmlns:android = "http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       android:id = "@+id/ButtonBar">
+
+      <Button
+          android:id= "@+id/Select"
+          android:layout_marginLeft="5dp"
+          android:layout_width="90dp"
+          android:layout_height="50dp"
+          android:background="@drawable/button_shape"
+          android:text="Select"/>
+      <Button
+          android:id ="@+id/Clear"
+          android:layout_width="90dp"
+          android:layout_height="50dp"
+          android:layout_toRightOf="@id/Select"
+          android:background="@drawable/button_shape"
+          android:text="Clear"/>
+      <Button
+          android:id = "@+id/Delete"
+          android:layout_width="90dp"
+          android:layout_height="50dp"
+          android:background="@drawable/button_shape"
+          android:layout_toRightOf="@id/Clear"
+          android:text="Delete"/>
+      <Button
+          android:id = "@+id/Sort"
+          android:layout_width="90dp"
+          android:background="@drawable/button_shape"
+          android:layout_height="50dp"
+          android:layout_toRightOf="@id/Delete"
+          android:text="Sort"/>
+   </RelativeLayout>
+
+   <android.support.v7.widget.RecyclerView
+       android:id = "@+id/cardList"
+       android:layout_below="@+id/ButtonBar"
+       android:layout_width ="match_parent"
+       android:layout_height="match_parent" />
+  </RelativeLayout>
+
